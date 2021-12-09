@@ -1,0 +1,434 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/nunito-v16-latin-regular.woff');
+}
+@font-face {
+    font-family: 'Ubuntu light';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/ubuntu-v15-latin-300.woff');
+}
+@font-face {
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/ubuntu-v15-latin-regular.woff');
+}
+@font-face {
+    font-family: 'Ubuntu medium';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/ubuntu-v15-latin-500.woff');
+}
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/open-sans-v26-latin-regular.woff');
+}
+@font-face {
+    font-family: 'Ubuntu light italic';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/ubuntu-v15-latin-300italic.woff');
+}
+@font-face {
+    font-family: 'Ubuntu bold';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/ubuntu-v15-latin-700.woff');
+}
+@font-face {
+    font-family: 'Font Awesome';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/fontawesome-webfont.woff');
+}
+.wrapper {
+    background-color: #ffffff;
+    max-width: 1500px;
+    width: 100%;
+    min-height: 3458px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+.boss-block {
+    max-width: 1500px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.head {
+    padding-left: 146px;
+    padding-right: 111px;
+    padding-top: 32px;
+    margin-bottom: 27px;
+}
+.title-head {
+    padding-left: 0;
+    padding-top: 0;
+    margin: 0 590px 0 0;
+    display: inline-block;
+
+    font-family: Nunito,sans-serif;
+    font-size: 37px;
+    line-height: 63px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #65a9d9;
+}
+.logo-black {
+    color: #333333;
+}
+.navigation-head {
+    display: inline-block;
+    padding-right: 1px;
+    padding-top: 5px;
+    padding-bottom: 12px;
+
+}
+.nav-list-head {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.nav-list-item-head {
+    display: inline-block;
+    margin-right: 30px;
+}
+.nav-list-item-link-head {
+    text-decoration: none;
+    opacity: 0.48;
+    font-family: Ubuntu,sans-serif;
+    font-size: 16px;
+    line-height: 47px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #2d394c;
+}
+.nav-list-item-head-about {
+    margin-right: 68px;
+}
+.nav-list-item-head-last {
+    margin-right: 0;
+}
+
+.main-blue {
+    background-color: #64a7d7;
+    margin: 0;
+    padding: 147px 80px 88px 120px;
+    background-image: url("../image/phone.png");
+    background-repeat: no-repeat;
+    background-size: 539px auto;
+    background-position: 850px 100px;
+}
+.main-sky {
+    padding-top: 92px;
+    padding-bottom: 167px;
+    padding-left: 41px;
+    background-image: url("../image/clouds.png");
+    background-repeat: no-repeat;
+    background-size: 1300px auto;
+}
+.main-content-blue {
+    padding-top: 0;
+    padding-left: 0;
+    margin: 0;
+}
+.title-sky {
+    font-family: Ubuntu bold,sans-serif;
+    font-size: 52px;
+    line-height: 65px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f7f6f2;
+    text-align: left;
+    max-width: 490px;
+    width: 100%;
+    margin: 0 0 40px 0;
+}
+.text-sky {
+    font-family: Ubuntu light italic,sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+    margin:0 0 60px 0;
+}
+.text-login {
+    font-family: Ubuntu medium,sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #f7f7f7;
+    margin:0 0 30px 0;
+}
+.button-yellow {
+    padding: 8px 9px 7px 10px;
+    background-color: #ffce54;
+    font-family: Ubuntu bold,sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #f7f7f7;
+    border-radius: 8px;
+}
+.box {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    min-height: 56px;
+    border: 1px solid rgba(255,255,255,0.14);
+    border-radius: 5px;
+    margin-right: 30px;
+}
+.button {
+    font-family: Ubuntu medium,sans-serif;
+    font-size: 18px;
+
+    line-height: 19px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #77c344;
+    border-radius: 10px;
+    padding: 20px 22px 20px 25px;
+    border: none;
+}
+.span-button {
+
+}
+.main-map {
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../image/macbook.jpg");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    margin-bottom: 162px;
+    background-size: 755px auto;
+
+}
+.image-map {
+    padding: 66px 159px 56px 175px;
+    margin-bottom: 119px;
+
+}
+.link-image-map {
+    margin-right: 115px;
+    display: inline-block;
+}
+.social-image-map {
+    opacity: 0.47;
+    color: #2d394c;
+}
+.firefox {
+   margin-right: 0;
+}
+.block-content-map {
+    padding-left: 145px;
+}
+.content-map {
+    padding-left: 0;
+    padding-top: 0;
+}
+.title-map {
+    margin: 0 0 133px 0;
+    text-align: center;
+
+    opacity: 0.85;
+    font-family: Ubuntu medium,sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #2d394c;
+ }
+.content-text-map {
+    margin: 0;
+    padding-left: 3px;
+    max-width: 487px;
+    width: 100%;
+}
+.title-info-map {
+    margin: 0;
+
+    opacity: 0.9;
+    font-family: Ubuntu medium,sans-serif;
+    font-size: 22px;
+    line-height: 63px;
+    font-weight: 500;
+    color: #2d394c;
+}
+.text-info-map {
+    margin: 0;
+
+    font-family:'Open Sans',sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #9499a2;
+}
+.block-one-content-text-map {
+    margin-bottom: 45px;
+}
+.block-two-content-text-map {
+    margin-bottom: 55px;
+}
+.block-three-content-text-map {
+    margin-bottom: 35px;
+}
+.main-ship {
+    padding-left: 123px;
+    padding-top: 120px;
+    padding-bottom: 197px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 190px;
+    background-image: url("../image/ships.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 1134px auto;
+    opacity: 0.76;
+
+}
+.content-ship {
+    padding-left: 0;
+    padding-top: 0;
+}
+.title-ship {
+    text-align: center;
+
+    opacity: 0.9;
+    font-family: Ubuntu medium,sans-serif;
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 500;
+    color: #2d394c;
+
+    margin:0 0 168px 0;
+}
+.title-text-ship {
+    opacity: 0.87;
+    font-family: Ubuntu,sans-serif;
+    font-size: 28px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #2d394c;
+    margin:0 0 40px 0;
+}
+.text-ship {
+    opacity: 0.89;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #5a626e;
+    max-width: 726px;
+    width: 100%;
+    margin: 0;
+}
+.main-down {
+    padding-top: 0;
+    padding-bottom: 167px;
+    padding-left: 0;
+    margin-bottom: 2px;
+}
+.title-down {
+    text-align: center;
+    font-family: Ubuntu medium,sans-serif;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #5a626e;
+    margin:0 0 65px 0;
+}
+.text-down {
+    font-family: Ubuntu light italic,sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 300;
+    font-style: italic;
+    color: #5a626e;
+    text-align: center;
+    margin: 0;
+}
+.about-footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 46px 183px 58px 132px;
+}
+.content-footer {
+    padding: 16px 0 8px 0;
+    font-size: 0;
+    text-align: center;
+}
+.link-title-footer {
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 340px;
+}
+.title-footer {
+    margin: 0;
+    font-family: Nunito,sans-serif;
+    font-size: 37px;
+    line-height: 63px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+}
+.logo-black-footer {
+    color: #65a9d9;
+}
+.navigation-footer {
+    display: inline-block;
+    margin-right: 40px;
+    border-right-width: 1px;
+    border-right-color: #4d5664;
+    border-right-style: solid;
+}
+.nav-list-footer {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.nav-list-item-footer {
+    display: inline-block;
+    margin-right: 35px;
+}
+.nav-list-item-footer-last {
+    margin-right: 0;
+}
+.nav-list-item-link-footer {
+    text-decoration: none;
+    opacity: 0.9;
+    font-family: Ubuntu,sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #4d5664;
+}
+.nav-list-item-link-media {
+    font-family: 'Font Awesome',sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+}
+.link-media-footer-twitter {
+    display: inline-block;
+    margin: 0 28px 0 0;
+}
+.link-media-footer-facebook {
+    display: inline-block;
+    margin: 0 28px 0 0;
+}
+.link-media-footer-google{
+    display: inline-block;
+    margin: 0;
+}
+
+
